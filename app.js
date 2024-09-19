@@ -141,3 +141,17 @@
 // console.log(javop);
 
 // Integer-5 
+// let uch_honalison = prompt('uch honali son kiriting');
+// let yuzlik = Math.floor((uch_honalison / 100));
+// let onlik = Math.floor((uch_honalison % 100) / 10);
+// let birlik = uch_honalison % 10
+// let javop =  yuzlik * 100 + birlik * 10 + onlik;
+// console.log(javop);
+function findThousandsDigit(number) {
+    let thousands = Math.floor(number / 1000) % 10;
+    return thousands;
+  }
+  
+  let number = prompt('4honali son kiriting')
+  console.log(findThousandsDigit(number)); // Output: 8
+  
