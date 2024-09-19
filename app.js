@@ -1,10 +1,10 @@
-// bagin-1
-// let  a = Math.floor(prompt('To`g`ri to`rtburchakning  a tomoniga qiymat bering'));
-// let  b = Math.floor(prompt('To`g`ri to`rtburchakning  b tomoniga qiymat bering'));
-// let yuzasi = a*b
-// let perimetr = 2 * (a + b);
-// console.log(yuzasi);
-// console.log(perimetr);
+bagin-1
+let  a = Math.floor(prompt('To`g`ri to`rtburchakning  a tomoniga qiymat bering'));
+let  b = Math.floor(prompt('To`g`ri to`rtburchakning  b tomoniga qiymat bering'));
+let yuzasi = a*b
+let perimetr = 2 * (a + b);
+console.log(yuzasi);
+console.log(perimetr);
 
 
 // begin-2
@@ -147,11 +147,12 @@
 // let birlik = uch_honalison % 10
 // let javop =  yuzlik * 100 + birlik * 10 + onlik;
 // console.log(javop);
-function findThousandsDigit(number) {
-    let thousands = Math.floor(number / 1000) % 10;
-    return thousands;
-  }
-  
-  let number = prompt('4honali son kiriting')
-  console.log(findThousandsDigit(number)); // Output: 8
-  
+
+// Integer-6
+// function findThousandsDigit(number) {
+//     let thousands = Math.floor(number / 1000) % 10;
+//     return thousands;
+// }
+
+// let number = prompt('4honali son kiriting')
+// console.log(findThousandsDigit(number)); 
