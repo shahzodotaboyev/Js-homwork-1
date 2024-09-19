@@ -1,4 +1,4 @@
-bagin-1
+// bagin-1
 let  a = Math.floor(prompt('To`g`ri to`rtburchakning  a tomoniga qiymat bering'));
 let  b = Math.floor(prompt('To`g`ri to`rtburchakning  b tomoniga qiymat bering'));
 let yuzasi = a*b
